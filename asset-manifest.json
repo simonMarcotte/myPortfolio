@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/myPortfolio/static/css/main.99ca710b.css",
+    "main.js": "/myPortfolio/static/js/main.58e0ea6d.js",
+    "static/media/simonpng.jpg": "/myPortfolio/static/media/simonpng.5bdd1f9f61facea356ba.jpg",
+    "static/media/p2.jpg": "/myPortfolio/static/media/p2.24f693a83f85f7025ac5.jpg",
+    "static/media/react.png": "/myPortfolio/static/media/react.81ed438b18e24116794d.png",
+    "static/media/python.png": "/myPortfolio/static/media/python.dea924d737bb84eb9ce3.png",
+    "static/media/p1.png": "/myPortfolio/static/media/p1.0c10c1b9541b32e86a7b.png",
+    "static/media/appsscripts.png": "/myPortfolio/static/media/appsscripts.f443de5741f521621d2b.png",
+    "static/media/SimonM-ResumeB2E.pdf": "/myPortfolio/static/media/SimonM-ResumeB2E.d50fc39b50b473c56077.pdf",
+    "static/media/sqlite.png": "/myPortfolio/static/media/sqlite.4fe75c0829d18d78b9fd.png",
+    "static/media/cplusplus.png": "/myPortfolio/static/media/cplusplus.fc461cc8303a38559c80.png",
+    "static/media/tailwind.png": "/myPortfolio/static/media/tailwind.9c2e5bcf4f97d73e438e.png",
+    "static/media/javascript.png": "/myPortfolio/static/media/javascript.266bd9fb2663dcc057b4.png",
+    "index.html": "/myPortfolio/index.html",
+    "main.99ca710b.css.map": "/myPortfolio/static/css/main.99ca710b.css.map",
+    "main.58e0ea6d.js.map": "/myPortfolio/static/js/main.58e0ea6d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99ca710b.css",
+    "static/js/main.58e0ea6d.js"
+  ]
+}
