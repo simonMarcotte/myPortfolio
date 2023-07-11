@@ -21,7 +21,7 @@ const Portfolio = () => {
             id: 2,
             image: p2,
             title: "Destiny Stats Site",
-            github: "https://github.com/simonMarcotte",
+            github: "https://github.com/simonMarcotte/myPortfolio/tree/main",
             demo: "https://github.com/simonMarcotte"
         }
     ];
