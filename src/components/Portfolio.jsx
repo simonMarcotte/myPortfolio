@@ -15,14 +15,21 @@ const Portfolio = () => {
             image: p1,
             title: "Discord Bot for Bridge 2 Engineering",
             github: "https://github.com/simonMarcotte/B2EDiscordBot",
-            demo: "https://github.com/simonMarcotte"
+            demo: "Includes slash commands, games, formatting, and more!"
         },
         {
             id: 2,
             image: p2,
             title: "Destiny Stats Site",
+            github: "https://github.com/simonMarcotte/destinyProject",
+            demo: "Tool to find statistics about players in Destiny 2 by Bungie."
+        },
+        {
+            id: 3,
+            image: p2,
+            title: "Personal Portfolio",
             github: "https://github.com/simonMarcotte/myPortfolio/tree/main",
-            demo: "https://github.com/simonMarcotte"
+            demo: "This website right here!"
         }
     ];
 
@@ -39,9 +46,9 @@ const Portfolio = () => {
                     <div key={id} className="max-w-lg flex shadow-lg shadow-gray-300 rounded-2xl overflow-hidden">
                         <img src={image} alt={title} className="w-2/3"></img>
                         <div className='w-1/3 flex flex-col items-center justify-evenly p-1'>
-                            <h2>{title}</h2>
+                            <h2 className="font-semibold">{title}</h2>
                             <a className="text-2xl cursor-pointer duration-150 hover:scale-110" href={github} target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-                            <a className="text-2xl cursor-pointer duration-150 hover:scale-110" href={demo} target="_blank" rel="noopener noreferrer"><FaExternalLinkSquareAlt /></a>
+                            <p className="font-extralight">{demo}</p>
                         </div>
 
                     </div>

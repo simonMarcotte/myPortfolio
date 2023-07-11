@@ -11,10 +11,7 @@ const Footer = () => {
             <li>
                 <p class="mr-4 md:mr-6 ">scmarcot@ualberta.ca</p>
             </li>
-            <li>
-            <p class="mr-4 md:mr-6 ">780-235-1492</p>
-            </li>
-            <ButtonMailto class="mr-4 hover:underline md:mr-6" label="contact me" mailto="mailto:scmarcot@ualberta.ca" />
+            <ButtonMailto classLabel="mr-4 hover:underline md:mr-6 font-extrabold" label="Send me an e-mail" mailto="mailto:scmarcot@ualberta.ca" />
         </ul>
         </div>
     </footer>
