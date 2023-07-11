@@ -15,3 +15,13 @@
 .hide-down-arrow {
   display: none;
 }
+
+.nightTime {
+  background-color: #111827;
+  transition-duration: 500ms;
+}
+
+.lightTime {
+  background-color: #ffffff;
+  transition-duration: 500ms;
+}

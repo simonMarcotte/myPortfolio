@@ -14,7 +14,7 @@ const Portfolio = () => {
             id: 1,
             image: p1,
             title: "Discord Bot for Bridge 2 Engineering",
-            github: "https://github.com/simonMarcotte",
+            github: "https://github.com/simonMarcotte/B2EDiscordBot",
             demo: "https://github.com/simonMarcotte"
         },
         {

@@ -25,7 +25,8 @@ const Header = ({darkMode, setDarkMode}) => {
 
 
   return (
-    <header className="bg-gray-200 dark:bg-gray-950 text-gray-900 dark:text-white sticky top-0 z-50 duration-500">
+
+    <header className="bg-gray-300 dark:bg-gray-950 text-gray-900 dark:text-white rounded-md m-3 sticky top-0 z-50 duration-500">
       <nav className='flex justify-between items-center p-5'>
         <h1 className='text-2xl'>SIMON M.</h1>
 
