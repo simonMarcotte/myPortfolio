@@ -39,7 +39,7 @@ const Hero = () => {
    
     <section className="min-h-screen flex flex-col justify-start items-center p-5 text-center">
         <h2 className="text-5xl dark:text-white text-zinc-900 uppercase font-bold duration-500">Simon Marcotte</h2>
-        <h3 className="py-3 text-2xl"><span className='animate-pulse text-3xl z-0'>💻</span>BSc Computer Engineering Co-op<span className='animate-pulse text-3xl z-0'>💻</span></h3>
+        <h3 className="py-3 text-2xl">{"<"}BSc Computer Engineering Co-op{"/>"} </h3>
         <p className="max-w-xl font-light text-gray-400"> "Hello!, My name is Simon Marcotte and I am a computer engineering co-op student at the University of Alberta. I am super interested in everything to do with computers and programming and I am always looking for new things to learn!"</p>
     
         {/*SOCIAL ICONS*/}
