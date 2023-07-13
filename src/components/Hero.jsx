@@ -10,17 +10,20 @@ const Hero = () => {
         {
             id: 1,
             link: "https://www.instagram.com/simon.marcotte/",
-            icon: <FaInstagram />
+            icon: <FaInstagram />,
+            style: "hover:text-pink-500"
         },
         {
             id: 2,
             link: "https://github.com/simonMarcotte",
-            icon: <FaGithub />
+            icon: <FaGithub />,
+            style:"hover:text-gray-700"
         },
         {
             id: 3,
             link: "https://www.linkedin.com/in/simon-marcotte-914795251/",
-            icon: <FaLinkedin />
+            icon: <FaLinkedin />,
+            style: "hover:text-blue-500"
         }   
     ]
 
@@ -41,13 +44,13 @@ const Hero = () => {
     
         {/*SOCIAL ICONS*/}
         <div className="flex justify-evenly py-8 lg:py-10np text-3xl w-full md:w-1/3 z-20">
-            {SOCIAL.map(({id, link, icon}) => (
+            {SOCIAL.map(({id, link, icon, style}) => (
                 <a 
                     href={link} 
                     key={id}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="cursor-pointer duration-300 hover:text-blue-500 hover:scale-110"
+                    className={`cursor-pointer duration-300 hover:scale-110 ${style}`}
                 >
                     {icon}
                 </a>

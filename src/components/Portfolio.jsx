@@ -2,12 +2,17 @@ import React from 'react'
 import Section from './common/Section'
 
 import {FaGithub} from "react-icons/fa"
+import {BiFolder} from "react-icons/bi"
 
 import p1 from "../assets/p1.png"
 import p2 from "../assets/p2.jpg"
 import p3 from "../assets/Bungie.png"
 
 const Portfolio = () => {
+    
+    const iconLogo = {
+        icon1: <BiFolder/>
+    }
 
     const PROJECTS = [
         {
@@ -37,8 +42,9 @@ const Portfolio = () => {
   return (
     <div name="portfolio">
         <Section 
-            title="📖 Portfolio 📖" 
-            subtitle="Here are all of the projects I have worked on so far, but there are more to come!">
+            title="Portfolio" 
+            subtitle="Here are all of the projects I have worked on so far, but there are more to come!"
+            icon={iconLogo.icon1}>
             
             <div className="grid gap-8 lg:gap-14 lg:grid-cols-2">
 
