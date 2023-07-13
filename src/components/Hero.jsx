@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaTwitter, FaGithub, FaLinkedin, FaArrowDown} from "react-icons/fa"
+import {FaInstagram, FaGithub, FaLinkedin, FaArrowDown} from "react-icons/fa"
 import avatar from "../assets/simonpng.jpg"
 import resumepdf from "../assets/Resume2024.pdf"
 
@@ -9,8 +9,8 @@ const Hero = () => {
     const SOCIAL = [
         {
             id: 1,
-            link: "https://twitter.com/Krabziee",
-            icon: <FaTwitter />
+            link: "https://www.instagram.com/simon.marcotte/",
+            icon: <FaInstagram />
         },
         {
             id: 2,
@@ -27,15 +27,17 @@ const Hero = () => {
     window.addEventListener("scroll", function () {
         const downArrow = document.querySelector(".down-arrow");
 
-        if(this.scrollY >= 90) downArrow.classList.add("hide-down-arrow");
+        if(this.scrollY >= 170) downArrow.classList.add("hide-down-arrow");
         else downArrow.classList.remove("hide-down-arrow");
     });
 
+    
   return (
+   
     <section className="min-h-screen flex flex-col justify-start items-center p-5 text-center">
-        <h2 className="text-5xl text-teal-400 uppercase font-bold">Simon Marcotte</h2>
-        <h3 className="py-3 text-2xl">BSc Computer Engineering Co-op</h3>
-        <p className="max-w-xl font-light text-gray-400"><span className='animate-pulse text-3xl z-0'>💻</span> Hello!, My name is Simon Marcotte and I am a student at the University of Alberta, in BSc Computer Engineering Coop!<span className='animate-pulse text-3xl z-0'>💻</span></p>
+        <h2 className="text-5xl dark:text-white text-zinc-900 uppercase font-bold duration-500">Simon Marcotte</h2>
+        <h3 className="py-3 text-2xl"><span className='animate-pulse text-3xl z-0'>💻</span>BSc Computer Engineering Co-op<span className='animate-pulse text-3xl z-0'>💻</span></h3>
+        <p className="max-w-xl font-light text-gray-400"> "Hello!, My name is Simon Marcotte and I am a computer engineering co-op student at the University of Alberta. I am super interested in everything to do with computers and programming and I am always looking for new things to learn!"</p>
     
         {/*SOCIAL ICONS*/}
         <div className="flex justify-evenly py-8 lg:py-10np text-3xl w-full md:w-1/3">
@@ -45,7 +47,7 @@ const Hero = () => {
                     key={id}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="cursor-pointer duration-300 hover:text-blue-500"
+                    className="cursor-pointer duration-300 hover:text-blue-500 hover:scale-110"
                 >
                     {icon}
                 </a>
@@ -58,9 +60,11 @@ const Hero = () => {
         <div>
 
             <img src={avatar} alt="avatar" className="w-60 h-60 md:w-72 md:h-72 object-cover object-top bg-gradient-to-b from-rose-600 rounded-xl"></img>
-            <a href={resumepdf} target='_blank' rel="noopener noreferrer"
-                className="flex items-center justify-center mt-10 bg-gradient-to-r from-teal-200 to-blue-600 text-gray-800 dark:text-white py-2 rounded-lg duration-500"
-            >Resume <span></span>
+            <a href={resumepdf} 
+                target='_blank' 
+                rel="noopener noreferrer"
+                className="flex items-center justify-center mt-10 dark:bg-zinc-900 bg-white text-zinc-900 dark:text-white outline py-2 rounded-lg font-bold hover:bg-zinc-300 dark:hover:bg-zinc-600 duration-500"
+            >Resume
             </a>
 
         </div>

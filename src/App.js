@@ -22,7 +22,7 @@ function App() {
     <div name="home" className={darkMode && "dark"}>
       <Header darkMode={darkMode} setDarkMode={setDarkMode}/>
 
-      <main className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white duration-500">
+      <main className="bg-white dark:bg-zinc-800 text-zinc-800 dark:text-white duration-500">
       
         <Hero />
         <Portfolio />

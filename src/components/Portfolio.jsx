@@ -1,11 +1,11 @@
 import React from 'react'
 import Section from './common/Section'
 
-import {FaGithub, FaExternalLinkSquareAlt} from "react-icons/fa"
-import { MdExposurePlus1 } from 'react-icons/md'
+import {FaGithub} from "react-icons/fa"
 
 import p1 from "../assets/p1.png"
 import p2 from "../assets/p2.jpg"
+import p3 from "../assets/Bungie.png"
 
 const Portfolio = () => {
 
@@ -19,15 +19,15 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            image: p2,
-            title: "Destiny Stats Site",
+            image: p3,
+            title: "Destiny 2 Statistics Web App",
             github: "https://github.com/simonMarcotte/destinyProject",
             demo: "Tool to find statistics about players in Destiny 2 by Bungie."
         },
         {
             id: 3,
             image: p2,
-            title: "Personal Portfolio",
+            title: "Personal Portfolio Web App",
             github: "https://github.com/simonMarcotte/myPortfolio/tree/main",
             demo: "This website right here!"
         }
@@ -47,7 +47,7 @@ const Portfolio = () => {
                         <img src={image} alt={title} className="w-2/3"></img>
                         <div className='w-1/3 flex flex-col items-center justify-evenly p-1'>
                             <h2 className="font-semibold">{title}</h2>
-                            <a className="text-2xl cursor-pointer duration-150 hover:scale-110" href={github} target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+                            <a className="text-2xl cursor-pointer hover:scale-125 hover:text-blue-500 duration-300" href={github} target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                             <p className="font-extralight">{demo}</p>
                         </div>
 
