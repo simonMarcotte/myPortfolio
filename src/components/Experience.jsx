@@ -84,11 +84,12 @@ const Experience = () => {
 
                 {technologies.map(({id, src, title, style, detail}) => (
                     <div key={id} className={`shadow-lg hover:scale-105 duration-500 py-2 rounded-lg ${style} overflow-hidden`}>
-                        <div class="opacity-0 hover:opacity-100 hover:bg-zinc-500 hover:bg-opacity-60 duration-300 absolute inset-0 z-10 flex justify-center items-center text-sm text-white font-semibold">{detail}</div>
-                        <img src={src} alt={title} className="w-20 mx-auto"></img>
-                        <div className='flex flex-col items-center justify-evenly p-1'>
-                            <h2>{title}</h2>
-                        </div>
+                        <div class="opacity-0 hover:opacity-100 hover:bg-zinc-500 hover:bg-opacity-60 duration-300 inset-0 z-10 absolute flex justify-center items-center text-sm text-white font-semibold">{detail}</div>
+                            <img src={src} alt={title} className="w-20 mx-auto"></img>
+                            <div className='flex flex-col items-center justify-evenly p-1'>
+                                <h2>{title}</h2>
+                            </div>
+                        
                     </div>
                 ))}
 

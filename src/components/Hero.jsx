@@ -40,7 +40,7 @@ const Hero = () => {
         <p className="max-w-xl font-light text-gray-400"> "Hello!, My name is Simon Marcotte and I am a computer engineering co-op student at the University of Alberta. I am super interested in everything to do with computers and programming and I am always looking for new things to learn!"</p>
     
         {/*SOCIAL ICONS*/}
-        <div className="flex justify-evenly py-8 lg:py-10np text-3xl w-full md:w-1/3">
+        <div className="flex justify-evenly py-8 lg:py-10np text-3xl w-full md:w-1/3 z-20">
             {SOCIAL.map(({id, link, icon}) => (
                 <a 
                     href={link} 
@@ -52,7 +52,6 @@ const Hero = () => {
                     {icon}
                 </a>
                 
-
             ))}
         </div>
 
