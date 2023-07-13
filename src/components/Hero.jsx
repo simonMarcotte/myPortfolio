@@ -61,7 +61,7 @@ const Hero = () => {
         {/*AVATAR AND RESUME*/}
         <div>
 
-            <img src={avatar} alt="avatar" className="w-60 h-60 md:w-72 md:h-72 object-cover object-top bg-gradient-to-b from-rose-600 rounded-xl"></img>
+            <img src={avatar} alt="avatar" className="w-60 h-60 md:w-72 md:h-72 object-cover object-top rounded-xl"></img>
             <a href={resumepdf} 
                 target='_blank' 
                 rel="noopener noreferrer"

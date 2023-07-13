@@ -27,14 +27,14 @@ const Experience = () => {
             src: pythonpng,
             title: "Python",
             style: "hover:shadow-yellow-400",
-            detail: "I used Python to program my Discord Bot for Brige2Engg."
+            detail: "I used Python and the discord.py library to program my Discord Bot for Brige2Engg."
         },
         {
             id:2,
             src: cpluspluspng,
             title: "C++",
             style: "hover:shadow-blue-300",
-            detail: "I used C++ to implement Dijkstra's Algorithm for a weighted and directed graph of Edmonton."
+            detail: "I used C++ and Dijkstra's Algorithm to find a shortest path between 2 points in Edmonton using a Client-Server App."
         },
         {
             id:3,
@@ -48,14 +48,14 @@ const Experience = () => {
             src: reactpng,
             title: "ReactJS",
             style: "hover:shadow-sky-300",
-            detail: "I used the React framework to create and design this Web App and the Destiny 2 Statistics Web App."
+            detail: "I used the React framework to create and design this Web App, and the Destiny 2 Statistics Web App."
         },
         {
             id:5,
             src: tailwindpng,
             title: "Tailwind CSS",
             style: "hover:shadow-teal-200",
-            detail: "I used Tailwind CSS to style this Web App, along with the Destiny 2 Statistics Web App."
+            detail: "I used Tailwind CSS to style this Web App, and the Destiny 2 Statistics Web App."
         },
         {
             id:6,
@@ -69,14 +69,14 @@ const Experience = () => {
             src: appsscriptspng,
             title: "Google Apps Scripts",
             style: "hover:shadow-green-400",
-            detail: "I used Google Apps Scripts and JavaScript to read data from an excel sheet, understand it, and e-mail results to a user."
+            detail: "I used Google Apps Scripts to interpret and send results from a google from to a user via e-mail."
         },
         {
             id:8,
             src: sqlitepng,
             title: "SQLite",
             style: "hover:shadow-sky-700",
-            detail: "I used SQLite to perform operation and manage databases."
+            detail: "I use SQLite to operate and manage databases."
         }
 
     ];
