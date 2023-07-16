@@ -65,7 +65,7 @@ const Hero = () => {
             <a href={resumepdf} 
                 target='_blank' 
                 rel="noopener noreferrer"
-                className="flex items-center justify-center mt-10 dark:bg-zinc-900 bg-white text-zinc-900 dark:text-white outline py-2 rounded-lg font-bold hover:bg-zinc-300 dark:hover:bg-zinc-600 duration-500"
+                className="flex z-20 items-center justify-center mt-10 dark:bg-zinc-900 bg-white text-zinc-900 dark:text-white outline py-2 rounded-lg font-bold hover:bg-zinc-300 dark:hover:bg-zinc-600 duration-500"
             >Resume
             </a>
 
