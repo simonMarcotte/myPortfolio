@@ -26,7 +26,7 @@ const Portfolio = () => {
             id: 2,
             image: p3,
             title: "Destiny 2 Statistics Web App",
-            github: "https://github.com/simonMarcotte/destinyProject",
+            github: "https://github.com/simonMarcotte/d2StatsWebapp",
             demo: "Tool to find statistics about players in Destiny 2 by Bungie."
         },
         {
