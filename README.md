@@ -1,6 +1,6 @@
 # My Personal Portfoio Website
 
-This website was created using React.js and Talwind CSS.
+This website was created using React.js and Talwind CSS, and is availiable to view here: https://simonmarcotte.netlify.app/
 
 On this website, you can learn more about who I am, what I do and what I have done, and how to contact me.
 To change between light and dark mode, click the icon on the top right on the navigation bar.
