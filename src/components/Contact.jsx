@@ -67,7 +67,7 @@ const ContactForm = () => {
     <div name="contact">
         <Section
                 title="Contact"
-                subtitle="Please use this form if you wish to contact me!"
+                subtitle="I can be reached via email or through sending me a message using the form below:"
                 icon = {iconContact.i1}
         >
             <form
