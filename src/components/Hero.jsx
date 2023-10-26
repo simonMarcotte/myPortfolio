@@ -50,7 +50,7 @@ const Hero = () => {
                     key={id}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`cursor-pointer duration-300 hover:scale-110 ${style}`}
+                    className={`cursor-pointer hover:duration-300 hover:scale-110 ${style}`}
                 >
                     {icon}
                 </a>
