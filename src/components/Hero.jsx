@@ -1,6 +1,6 @@
 import React from 'react'
 import {FaInstagram, FaGithub, FaLinkedin, FaArrowDown} from "react-icons/fa"
-import avatar from "../assets/simonpng.jpg"
+import avatar from "../assets/simonmpng.jpg"
 import resumepdf from "../assets/Resume2024.pdf"
 
 const Hero = () => {
@@ -61,7 +61,7 @@ const Hero = () => {
         {/*AVATAR AND RESUME*/}
         <div>
 
-            <img src={avatar} alt="avatar" className="w-60 h-60 md:w-72 md:h-72 object-cover object-top rounded-xl"></img>
+            <img src={avatar} alt="avatar" className="w-60 h-60 md:w-72 md:h-80 object-cover object-top rounded-xl"></img>
             <a href={resumepdf} 
                 target='_blank' 
                 rel="noopener noreferrer"
