@@ -3,12 +3,12 @@ import Section from './common/Section'
 
 import {BsGearWide} from "react-icons/bs"
 
-import cpluspluspng from "../assets/logos/cplusplus.png";
-import javascriptpng from "../assets/logos/javascript.png";
-import pythonpng from "../assets/logos/python.png";
-import reactpng from "../assets/logos/react.png";
-import tailwindpng from "../assets/logos/tailwind.png";
-import gitpng from "../assets/logos/github.png";
+import cplusplus from "../assets/logos/cplusplus.png";
+import javascript from "../assets/logos/javascript.png";
+import python from "../assets/logos/python.png";
+import react from "../assets/logos/react.png";
+import tailwind from "../assets/logos/tailwind.png";
+import git from "../assets/logos/github.png";
 import gcp from "../assets/logos/gcp.png";
 import database from "../assets/logos/database.png";
 
@@ -22,7 +22,7 @@ const Technology = () => {
     const technologies = [
         {
             id:1,
-            src: pythonpng,
+            src: python,
             title: "Python",
             style: "hover:shadow-yellow-400",
             detail: "I used Python at General Fusion, and in designing my autonomous Discord Bot for Brige2Engg."
@@ -43,35 +43,35 @@ const Technology = () => {
         },
         {
             id:4,
-            src: cpluspluspng,
+            src: cplusplus,
             title: "C++",
             style: "hover:shadow-blue-300",
             detail: "I used C++ and Dijkstra's Algorithm to find a shortest path between 2 points in Edmonton using a Client-Server App."
         },
         {
             id:5,
-            src: javascriptpng,
+            src: javascript,
             title: "JavaScript",
             style: "hover:shadow-yellow-500",
             detail: "I used JavaScript to create an Express REST API in Litcode, in this Web App, along with the Destiny 2 Statistics Web App."
         },
         {
             id:6,
-            src: reactpng,
-            title: "ReactJS",
+            src: react,
+            title: "React",
             style: "hover:shadow-sky-300",
             detail: "I used the React framework to create and design this Web App, and the Destiny 2 Statistics Web App."
         },
         {
             id:7,
-            src: tailwindpng,
-            title: "Tailwind CSS",
+            src: tailwind,
+            title: "Tailwind",
             style: "hover:shadow-teal-200",
             detail: "I used Tailwind CSS to style this Web App, and the Destiny 2 Statistics Web App."
         },
         {
             id:8,
-            src: gitpng,
+            src: git,
             title: "Github",
             style: "hover:shadow-gray-500",
             detail: "I use Github within the Linux environment to easily share and access my projects, and have created github actions to manage workflows."

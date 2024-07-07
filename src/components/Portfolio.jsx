@@ -4,9 +4,9 @@ import Section from './common/Section'
 import {FaGithub} from "react-icons/fa"
 import {BiFolder} from "react-icons/bi"
 
-import p1 from "../assets/p1.png"
-import p2 from "../assets/p2.jpg"
-import p3 from "../assets/Bungie.png"
+import b2e from "../assets/b2e.png"
+import mylogo from "../assets/mylogo.jpg"
+import bungie from "../assets/Bungie.png"
 import Litcode from "../assets/litcode.png"
 
 const Portfolio = () => {
@@ -18,8 +18,8 @@ const Portfolio = () => {
     const PROJECTS = [
         {
             id: 1,
-            image: p1,
-            title: "Discord Bot for Bridge 2 Engineering",
+            image: b2e,
+            title: "B2E Discord Bot",
             github: "https://github.com/simonMarcotte/Bot2Engg",
             demo: "Automated Discord Bot for the B2E discord, including slash commands, games and more!"
         },
@@ -32,14 +32,14 @@ const Portfolio = () => {
         },
         {
             id: 4,
-            image: p2,
+            image: mylogo,
             title: "Personal Portfolio Web App",
             github: "https://github.com/simonMarcotte/myPortfolio/tree/main",
             demo: "This website right here!"
         },
         {
             id: 3,
-            image: p3,
+            image: bungie,
             title: "Destiny 2 Statistics Web App",
             github: "https://github.com/simonMarcotte/d2StatsWebapp",
             demo: "Tool to find statistics about players in Destiny 2 by Bungie."
