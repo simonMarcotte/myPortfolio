@@ -7,6 +7,7 @@ import {BiFolder} from "react-icons/bi"
 import p1 from "../assets/p1.png"
 import p2 from "../assets/p2.jpg"
 import p3 from "../assets/Bungie.png"
+import Litcode from "../assets/litcode.png"
 
 const Portfolio = () => {
     
@@ -20,21 +21,28 @@ const Portfolio = () => {
             image: p1,
             title: "Discord Bot for Bridge 2 Engineering",
             github: "https://github.com/simonMarcotte/Bot2Engg",
-            demo: "Includes slash commands, games, formatting, and more!"
+            demo: "Automated Discord Bot for the B2E discord, including slash commands, games and more!"
         },
         {
-            id: 2,
-            image: p3,
-            title: "Destiny 2 Statistics Web App",
-            github: "https://github.com/simonMarcotte/d2StatsWebapp",
-            demo: "Tool to find statistics about players in Destiny 2 by Bungie."
+            id:2,
+            image: Litcode,
+            title: "Litcode Social",
+            github: "https://github.com/simonMarcotte/Litcode",
+            demo: "A social Coding Interview Prep Tracking tool to compete with friends."
         },
         {
-            id: 3,
+            id: 4,
             image: p2,
             title: "Personal Portfolio Web App",
             github: "https://github.com/simonMarcotte/myPortfolio/tree/main",
             demo: "This website right here!"
+        },
+        {
+            id: 3,
+            image: p3,
+            title: "Destiny 2 Statistics Web App",
+            github: "https://github.com/simonMarcotte/d2StatsWebapp",
+            demo: "Tool to find statistics about players in Destiny 2 by Bungie."
         }
     ];
 
@@ -49,7 +57,7 @@ const Portfolio = () => {
             <div className="grid gap-8 lg:gap-14 lg:grid-cols-2">
 
                 {PROJECTS.map(({id, image, title, github, demo}) => (
-                    <div key={id} className="max-w-lg flex shadow-lg shadow-gray-300 rounded-2xl overflow-hidden">
+                    <div key={id} className="max-w-lg flex shadow-lg shadow-gray-300 dark:shadow-gray-500 dark:bg-zinc-900 bg-gray-200 rounded-2xl overflow-hidden duration-500">
                         <img src={image} alt={title} className="w-2/3"></img>
                         <div className='w-1/3 flex flex-col items-center justify-evenly p-1'>
                             <h2 className="font-semibold">{title}</h2>
