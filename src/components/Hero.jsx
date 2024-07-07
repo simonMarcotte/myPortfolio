@@ -36,7 +36,7 @@ const Hero = () => {
     return (
         <section className="min-h-screen flex flex-col justify-start items-center p-5 text-center">
             <h2 className="text-5xl dark:text-white text-zinc-900 uppercase font-bold duration-500">Simon Marcotte</h2>
-            <h3 className="py-3 text-2xl">{"<"}BSc Computer Engineering Co-op{"/>"} </h3>
+            <h3 className="py-3 text-2xl">{"<"}BSc. Computer Engineering Co-op{"/>"} </h3>
             <p className="max-w-xl font-light text-gray-400"> "I am a dedicated 4th year Computer Engineering student at the University of Alberta with a passion for technology and problem-solving. I excel in software engineering, firmware development, project management, and in collaborative environments. I am eager to continuously learn and contribute my skills to help improve our society."</p>
 
             {/* SOCIAL ICONS */}
@@ -67,7 +67,7 @@ const Hero = () => {
             </div>
 
             {/* ARROW DOWN */}
-            <div className="mt-10 down-arrow">
+            <div className="absolute bottom-10 down-arrow">
                 <FaArrowDown className="text-gray-400 text-2xl animate-bounce" />
             </div>
         </section>
