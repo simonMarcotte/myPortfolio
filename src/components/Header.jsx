@@ -34,7 +34,7 @@ const Header = ({ darkMode, setDarkMode }) => {
 
         <ul className='md:flex'>
           {NavButtons.map(({ id, link }) => (
-            <li key={id} className="px-4 cursor-pointer capitalize font-thin hover:scale-110 duration-200">
+            <li key={id} className="px-4 cursor-pointer capitalize font-light hover:scale-110 duration-200">
               <Link to={link} smooth duration={500} offset={-50}>{link}</Link>
             </li>
           ))}
