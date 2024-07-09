@@ -55,12 +55,12 @@ const Hero = () => {
             </div>
 
             {/* AVATAR AND RESUME */}
-            <div className="relative">
+            <div className="relative z-10">
                 <img src={avatar} alt="avatar" className="md:w-auto md:h-80 object-top rounded-xl"></img>
                 <a href={resumepdf}
                     target='_blank'
                     rel="noopener noreferrer"
-                    className="cursor-pointer flex z-50 items-center justify-center mt-10 bg-gray-200 dark:bg-zinc-900 text-zinc-900 dark:text-white outline py-2 rounded-lg font-bold hover:bg-zinc-400 dark:hover:bg-zinc-700 duration-500 relative"
+                    className="cursor-pointer flex items-center justify-center mt-10 bg-gray-200 dark:bg-zinc-900 text-zinc-900 dark:text-white outline py-2 rounded-lg font-bold hover:bg-zinc-400 dark:hover:bg-zinc-700 duration-500 relative"
                     style={{ zIndex: 50 }}
                 > Resume
                 </a>
