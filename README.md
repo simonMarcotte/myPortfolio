@@ -9,4 +9,4 @@ In the skills section, hover on desktop or click on mobile on any of the skills,
 
 # Known Bugs:
 This is a curret list of known bugs within the website. This list will be updated as bugs are fixed:
-- When zoomed out past 100%, the 'resume' button does not work as intended
+- Some text and icons change theme slightly after the rest of the website
