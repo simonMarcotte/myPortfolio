@@ -23,9 +23,9 @@ const WorkExperience = () => {
             endDate: 'August 2024',
             style: 'hover:shadow-red-500 dark:hover:shadow-red-500',
             details: [
-                'Co-led the design of the core control system using Python to build an OOP-based async TCP server, simultaneously collecting data from 15+ plasma diagnostics 30 times per day, achieving a 1 month advance on release date.',
-                'Led the design of a Python control system for AWG and oscilloscopes to autonomously capture data on plasma reflectometry research equipment through VISA protocol, leveraging OOP for experiment scaling.',
-                'Redesigned existing data processing system architecture and implemented a REST API using Flask, pyTest, deployed with Docker, reducing API calls by 60%, streamlining the data processing pipeline.',
+                `Worked as a Software and Controls Engineering Co-op, where I was primarily responsible for setting up the control system and data processing for plasma research diagnostics.`,
+                'Co-led the design of the core control system using Python to build an asynchronous based TCP server used to simultaneously capture data from several differnt diagnostics at once, ranging from custom boards to oscilloscopes.',
+                'Redesigned system architecture and implemented a microservice using flask, PyTest and deployed with docker to help bypass data ingest to directly serve raw data.',
                 'Collaborated consistently with engineering physicists, software, and electrical engineers to formulate comprehensive cross-disciplinary plans, employing agile methodology to optimize workflow and productivity.',
             ],
         },
@@ -38,9 +38,9 @@ const WorkExperience = () => {
             endDate: 'August 2023',
             style: 'hover:shadow-blue-400 dark:hover:shadow-blue-400',
             details: [
-                'Led the redesign process for a virtual engineering camp, coordinating tasks among team members, setting deadlines, resulting in a one-month advancement in project schedule, and instructing 45+ students during the camp sessions.',
-                'Developed a Discord bot with Python, asyncio and discord.py, hosted on a GCP VM, facilitating task automation and active engagement across 3 servers and with 300+ students within the official program Discord server.',
-                'Designed an automated engineering discipline quiz using Google Apps Scripts with personalized email responses, with its success in the program resulting in its integration into an engineering class, available to 1000+ students.',
+                'Led the redesign process for a virtual engineering camp and program, Bridge2Engineering, meant to help bridge the gap from high school to engineering by informing and teaching students about academics, student life, and career opportunities.',
+                'Developed a Discord bot with Python, asyncio and discord.py, provisioned with terraform and hosted on a GCP VM, autonomously allowing students to learn about the program and play games in the official server',
+                'Launched an automated engineering discipline quiz with Google Apps Scripts, featuring personalized email responses for each user (Fun Fact: as of July 2024, based off 400 submissions, MechE, CompE and ECE are the most popular disciplines!).',
                 'Managed and organized communication platforms between staff and students in a hybrid environment, led weekly meetings to improve content to adapt to students needs.',
             ],
         },
@@ -62,12 +62,12 @@ const WorkExperience = () => {
                                             <p className="text-xs sm:text-sm text-left text-gray-700 dark:text-gray-300 transition-colors duration-500">{`${startDate} - ${endDate}`}</p>
                                         </div>
                                     </div>
-                                    <BsChevronDown className="cursor-pointer" />
+                                    <BsChevronDown className="cursor-pointer transition-transform duration-500 ease-in-out text-2xl" />
                                 </div>
                                 <div
-                                    className={`overflow-hidden duration-500 w-full ${open.includes(id) ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}
+                                    className={`overflow-hidden transition-all duration-500 ease-in-out w-full ${open.includes(id) ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'}`}
                                 >
-                                    <div className="p-4 bg-gray-200 dark:bg-zinc-900 text-neutral-900 dark:text-gray-100 duration-500 max-h-48 overflow-y-scroll scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-200 dark:scrollbar-thumb-gray-700 dark:scrollbar-track-zinc-900">
+                                    <div className="p-4 bg-gray-200 dark:bg-zinc-900 text-neutral-900 dark:text-gray-100 transition-colors duration-500">
                                         <ul className="list-disc list-inside text-left">
                                             {details.map((detail, index) => (
                                                 <li key={index}>{detail}</li>
@@ -82,6 +82,10 @@ const WorkExperience = () => {
             </Section>
         </div>
     );
+    
+    
+
+    
 };
 
 export default WorkExperience;
