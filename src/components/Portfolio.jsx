@@ -35,14 +35,14 @@ const Portfolio = () => {
             image: mylogo,
             title: "Personal Portfolio Web App",
             github: "https://github.com/simonMarcotte/myPortfolio/tree/main",
-            demo: "This website right here!"
+            demo: "The website you're looking at right now!"
         },
         {
             id: 3,
             image: bungie,
             title: "Destiny 2 Statistics Web App",
             github: "https://github.com/simonMarcotte/d2StatsWebapp",
-            demo: "Tool to find statistics about players in Destiny 2 by Bungie."
+            demo: "Tool to find statistics about players in Bungie's Destiny 2."
         }
     ];
 
@@ -62,7 +62,7 @@ const Portfolio = () => {
                         <div className='w-1/3 flex flex-col items-center justify-evenly p-1'>
                             <h2 className="font-semibold">{title}</h2>
                             <a className="text-2xl cursor-pointer scale-125 hover:scale-150 hover:text-blue-500 duration-300" href={github} target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-                            <p className="font-extralight">{demo}</p>
+                            <p className="font-light text-sm">{demo}</p>
                         </div>
 
                     </div>
