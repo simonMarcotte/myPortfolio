@@ -32,7 +32,7 @@ const Technology = () => {
             src: gcp,
             title: "Google Cloud Platform",
             style: "hover:shadow-green-400",
-            detail: "I have used GCP cloud run and compute engine to host my Discord bot, used both BigQuery and Firebase in Litcode, and managed VPC subnets and firewalls.."
+            detail: "I have used GCP cloud run and compute engine to host my Discord bot, used both BigQuery and Firebase in Litcode, and managed VPC subnets and firewalls."
         },
         {
             id:3,

@@ -6,7 +6,7 @@ import {BiFolder} from "react-icons/bi"
 
 import b2e from "../assets/b2e.png"
 import mylogo from "../assets/mylogo.jpg"
-import bungie from "../assets/Bungie.png"
+import airflow from "../assets/airflow.png"
 import Litcode from "../assets/litcode.png"
 
 const Portfolio = () => {
@@ -16,6 +16,13 @@ const Portfolio = () => {
     }
 
     const PROJECTS = [
+        {
+            id: 3,
+            image: airflow,
+            title: "Airflow Stock Data Pipeline",
+            github: "https://github.com/simonMarcotte/Airflow-Stock-Pipeline",
+            demo: "Apache Airflow data pipeline to automate historical stock anaylsis."
+        },
         {
             id: 1,
             image: b2e,
@@ -36,13 +43,6 @@ const Portfolio = () => {
             title: "Personal Portfolio Web App",
             github: "https://github.com/simonMarcotte/myPortfolio/tree/main",
             demo: "The website you're looking at right now!"
-        },
-        {
-            id: 3,
-            image: bungie,
-            title: "Destiny 2 Statistics Web App",
-            github: "https://github.com/simonMarcotte/d2StatsWebapp",
-            demo: "Tool to find statistics about players in Bungie's Destiny 2."
         }
     ];
 

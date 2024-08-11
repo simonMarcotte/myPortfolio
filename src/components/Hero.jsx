@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaInstagram, FaGithub, FaLinkedin, FaArrowDown } from "react-icons/fa";
 import avatar from "../assets/simonm.png";
-import resumepdf from "../assets/Resume2024.pdf";
+import resumepdf from "../assets/SimonMarcotte-Resume.pdf";
 
 const Hero = () => {
 
