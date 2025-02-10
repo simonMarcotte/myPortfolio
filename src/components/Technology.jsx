@@ -1,102 +1,40 @@
-import React from 'react'
-import Section from './common/Section'
+import React from 'react';
+import Section from './common/Section';
+import { BsGearWide } from "react-icons/bs";
 
-import {BsGearWide} from "react-icons/bs"
-
-import cplusplus from "../assets/logos/cplusplus.png";
-import javascript from "../assets/logos/javascript.png";
-import python from "../assets/logos/python.png";
-import react from "../assets/logos/react.png";
-import tailwind from "../assets/logos/tailwind.png";
-import git from "../assets/logos/github.png";
-import gcp from "../assets/logos/gcp.png";
-import database from "../assets/logos/database.png";
-
+// Import the technologies data from the JSON file.
+import technologies from '../components/data/tech.json';
 
 const Technology = () => {
+  const iconsExp = {
+    icon1: <BsGearWide />
+  };
 
-    const iconsExp ={
-            icon1: <BsGearWide/>
-        }
-
-    const technologies = [
-        {
-            id:1,
-            src: python,
-            title: "Python",
-            style: "hover:shadow-yellow-400",
-            detail: "I used Python at General Fusion, and in designing my autonomous Discord Bot for Brige2Engg."
-        },
-        {
-            id:2,
-            src: gcp,
-            title: "Google Cloud Platform",
-            style: "hover:shadow-green-400",
-            detail: "I have used GCP cloud run and compute engine to host my Discord bot, used both BigQuery and Firebase in Litcode, and managed VPC subnets and firewalls."
-        },
-        {
-            id:3,
-            src: database,
-            title: "SQL/NoSQl",
-            style: "hover:shadow-sky-700",
-            detail: "I have used SQL and MongoDB to recreate a twitter application."
-        },
-        {
-            id:4,
-            src: cplusplus,
-            title: "C++",
-            style: "hover:shadow-blue-300",
-            detail: "I used C++ and Dijkstra's Algorithm to find a shortest path between 2 points in Edmonton using a Client-Server App."
-        },
-        {
-            id:5,
-            src: javascript,
-            title: "JavaScript",
-            style: "hover:shadow-yellow-500",
-            detail: "I used JavaScript to create an Express REST API in Litcode, in this Web App, along with the Destiny 2 Statistics Web App."
-        },
-        {
-            id:6,
-            src: react,
-            title: "React",
-            style: "hover:shadow-sky-300",
-            detail: "I used the React framework to create and design this Web App, and the Destiny 2 Statistics Web App."
-        },
-        {
-            id:7,
-            src: tailwind,
-            title: "Tailwind",
-            style: "hover:shadow-teal-200",
-            detail: "I used Tailwind CSS to style this Web App, and the Destiny 2 Statistics Web App."
-        },
-        {
-            id:8,
-            src: git,
-            title: "Github",
-            style: "hover:shadow-gray-500",
-            detail: "I use Github within the Linux environment to easily share and access my projects, and have created github actions to manage workflows."
-        },
-    ];
-
-    return (
-        <div name="Technologies">
-            <Section
-                title="Technologies"
-                subtitle="Here are some of the technologies I am proficient with:"
-                icon={iconsExp.icon1}
+  return (
+    <div name="tech">
+      <Section
+        title="Technologies"
+        subtitle="Here are some of the technologies I am proficient with:"
+        icon={iconsExp.icon1}
+      >
+        <div className="w-full grid gap-8 lg:gap-14 lg:grid-cols-4 sm:grid-cols-2 ">
+          {technologies.map(({ id, src, title, style, detail }) => (
+            <div
+              key={id}
+              className={`relative shadow-lg bg-gray-200 dark:bg-zinc-900 hover:scale-105 py-4 rounded-lg ${style} shadow-gray-300 overflow-hidden flex flex-col items-center`}
             >
-                <div className="w-full grid gap-8 lg:gap-14 lg:grid-cols-4 sm:grid-cols-2">
-                    {technologies.map(({id, src, title, style, detail}) => (
-                        <div key={id} className={`relative shadow-lg bg-gray-200 dark:bg-zinc-900 hover:scale-105 duration-500 py-4 rounded-lg ${style} shadow-gray-300 overflow-hidden flex flex-col items-center`}>
-                            <div className="opacity-0 hover:opacity-100 hover:bg-zinc-700 hover:bg-opacity-60 duration-300 inset-0 z-10 absolute flex justify-center items-center text-sm text-white font-semibold">{detail}</div>
-                            <img src={src} alt={title} className="w-20 h-20 object-contain mb-4" />
-                            <h2 className="text-center">{title}</h2>
-                        </div>
-                    ))}
-                </div>
-            </Section>
+              {/* Hover overlay with centered, smaller text using theme colours */}
+              <div className="opacity-0 hover:opacity-100 hover:bg-zinc-700 hover:bg-opacity-60 duration-300 inset-0 z-10 absolute flex justify-center items-center text-xs text-gray-300 font-semibold text-center px-2">
+                {detail}
+              </div>
+              <img src={src} alt={title} className="w-20 h-20 object-contain mb-4" />
+              <h2 className="text-center">{title}</h2>
+            </div>
+          ))}
         </div>
-    )
-}
+      </Section>
+    </div>
+  );
+};
 
-export default Technology
+export default Technology;
