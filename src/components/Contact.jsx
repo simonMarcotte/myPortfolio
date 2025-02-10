@@ -63,7 +63,7 @@ const ContactForm = () => {
   return (
     <div name="contact">
       <Section
-        title="Contact"
+        title="Contact Me"
         subtitle="I can be reached via email or through sending me a message using the form below:"
         icon={iconContact.i1}
       >
