@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "src": "/logos/python.png",
+      "title": "Python",
+      "style": "hover:shadow-yellow-400",
+      "detail": "I used Python at General Fusion, and in designing my autonomous Discord Bot for Bridge2Engg."
+    },
+    {
+      "id": 2,
+      "src": "/logos/gcp.png",
+      "title": "Google Cloud Platform",
+      "style": "hover:shadow-green-400",
+      "detail": "I have used GCP Cloud Run and Compute Engine to host my Discord bot, used both BigQuery and Firebase in Litcode, and managed VPC subnets and firewalls."
+    },
+    {
+      "id": 3,
+      "src": "/logos/c_lang.png",
+      "title": "C",
+      "style": "hover:shadow-blue-600",
+      "detail": "I used C in creating a Linux Kernel Driver to Monitor CPU usage."
+    },
+    {
+      "id": 4,
+      "src": "/logos/cplusplus.png",
+      "title": "C++",
+      "style": "hover:shadow-blue-300",
+      "detail": "I used C++ to render mandelbrot fractals."
+    },
+    {
+      "id": 5,
+      "src": "/logos/nvidia.png",
+      "title": "CUDA",
+      "style": "hover:shadow-green-500",
+      "detail": "I used CUDA and ROCm HIP to speed up mandelbrot fractals with GPU parallelization."
+    },
+    {
+      "id": 6,
+      "src": "/logos/docker.png",
+      "title": "Docker",
+      "style": "hover:shadow-sky-300",
+      "detail": "I use Docker to containerize my projects, like in the Vehicle Telemetry Server."
+    },
+    {
+      "id": 7,
+      "src": "/logos/raspberrypi.png",
+      "title": "Raspberry Pi",
+      "style": "hover:shadow-teal-200",
+      "detail": "I develope Kernel Drivers on Raspberry Pis and test server setups."
+    },
+    {
+      "id": 8,
+      "src": "/logos/github.png",
+      "title": "Github",
+      "style": "hover:shadow-gray-500",
+      "detail": "I use GitHub and GitHub Actions as version control and to maintain projects and at work."
+    }
+  ]
+  

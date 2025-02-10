@@ -1,0 +1,45 @@
+{
+    "career": [
+      {
+        "name": "Nokia",
+        "href": "https://nokia.com",
+        "title": "Router Platform Test Developer Co-op",
+        "logo": "/logos/nokiaLogo.png",
+        "start": "Incoming May 2025",
+        "end": "Aug 2025",
+        "description": [
+          "Working on testing the Service Router Platform, working with 1588 PTP, GNSS and Sync-E in the Timing/Sync team."
+        ]
+      },
+      {
+        "name": "General Fusion",
+        "href": "https://generalfusion.com",
+        "title": "Software/Controls Engineering Co-op",
+        "logo": "/logos/generalFusion.png",
+        "start": "Jan 2024",
+        "end": "Aug 2024",
+        "description": [
+          "Designed and deployed a Python based data acquisition system for 20+ fusion reactor diagnostics using Docker.",
+          "Enabled SPI communication between Arduino and FPGA using SystemVerilog, simulated and tested in Intel Quartus Prime.",
+          "Validated diagnostic server connections by testing data transmission from oscilloscopes over TCP/IP via fiber optics"
+        ]
+      },
+      {
+        "name": "UAlberta Faculty of Engineering",
+        "href": "https://www.ualberta.ca/en/engineering/student-services/bridge-2-engg.html",
+        "title": "Bride2Engg - Program Instructor",
+        "logo": "/logos/uofaEngg.png",
+        "start": "May 2023",
+        "end": "Aug 2023",
+        "description": [
+          "Deployed a GCP hosted Python Discord Bot to automate onboarding processes for 500+ members across 4 months.",
+          "Led virtual engineering camp redesign, coordinating team tasks and deadlines, advancing schedule by one month",
+          "Coordinated communication between staff and students, led weekly meetings to adapt to student’s needs"
+        ],
+        "links": [
+          { "name": "Bot2Engg", "href": "https://github.com/simonMarcotte/Bot2Engg", "icon": "globe" }
+        ]
+      }
+    ]
+  }
+  

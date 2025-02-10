@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "image": "/projects/mandelbrot.png",
+      "title": "GPU Mandelbrot Speedup",
+      "description": "Using CUDA and ROCm HIP on NVIDIA and AMD GPUs to speedup the rendering of mandelbrot fractals.",
+      "tags": ["CUDA", "ROCm", "HIP", "C++"],
+      "links": [
+        { "name": "GitHub", "url": "https://github.com/simonMarcotte/Mandelbrot-Speedup" }
+      ]
+    },
+    
+    {
+      "id": 2,
+      "image": "/projects/vehicleTelemetry.png",
+      "title": "Vehicle Telemetry Server",
+      "description": "Simulating vehicle data transmission from IoT diagnostics to a database for real-time monitoring.",
+      "tags": ["Apache Kafka", "GRPc", "Python", "Go", "Docker"],
+      "links": [
+        { "name": "GitHub", "url": "https://github.com/simonMarcotte/vehicle-telemetry" }
+      ]
+    },
+    {
+        "id": 3,
+        "image": "/projects/airflow.png",
+        "title": "Stock Data Pipeline",
+        "description": "An Apache Airflow data pipeline that automates historical stock analysis.",
+        "tags": ["Apache Airflow", "GCP", "BigQuery", "Python", "SQL", "Flask", "Docker", "Astro"],
+        "links": [
+          { "name": "GitHub", "url": "https://github.com/simonMarcotte/Airflow-Stock-Pipeline" },
+          { "name": "API", "url": "https://github.com/simonMarcotte/stock_interface" }
+        ]
+      },
+    {
+      "id": 4,
+      "image": "/projects/b2e.png",
+      "title": "Bot2Engg Discord Bot",
+      "description": "GCP hosted Python Discord Bot for the official B2E discord server, including slash commands, games, and onboarding automation.",
+      "tags": ["Python", "Discord.py", "GCP Compute Engine", "VPC"],
+      "links": [
+        { "name": "GitHub", "url": "https://github.com/simonMarcotte/myPortfolio/tree/main" }
+      ]
+    }
+  ]
+  

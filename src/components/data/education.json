@@ -1,0 +1,28 @@
+{
+  "education": [
+    {
+      "name": "University of Alberta",
+      "href": "https://example.com",
+      "title": "BSc Computer Engineering Co-op",
+      "logo": "/logos/uofaEngg.png",
+      "start": "Sep 2021",
+      "end": "Expected May 2026",
+      "description": [
+        "Currently working on the Deans Research Award Winter 2025 - RF Energy Harvesters",
+        "Computer Engineering Club Senior Executive - Academics"
+      ]
+    },
+    {
+      "name": "Lisgar Collegiate Institute",
+      "href": "https://lisgarci.ocdsb.ca/",
+      "title": "High School",
+      "logo": "/logos/lisgar.jpg",
+      "start": "Sep 2017",
+      "end": "Jun 2021",
+      "description": [
+        "High School I attended in Ottawa, Ontario",
+        "Summative Project for ICS3U - Asteroids Game Remake in C++"
+      ]
+    }
+  ]
+}

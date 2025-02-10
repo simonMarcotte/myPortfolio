@@ -1,0 +1,35 @@
+{
+    "title": "Hi, I'm Simon 👋",
+    "degree": "<BSc. Computer Engineering Co-op/>",
+    "descriptions": [
+      "21-year-old Computer Engineering Student based in Canada.",
+      "I like to work on GPU and computer graphics projects, play instruments and play volleyball."
+    ],
+    "social": [
+      {
+        "id": 1,
+        "href": "https://www.linkedin.com/in/simon-marcotte-914795251/",
+        "icon": "FaLinkedin",
+        "style": "hover:text-blue-500"
+      },
+      {
+        "id": 2,
+        "href": "https://github.com/simonMarcotte",
+        "icon": "FaGithub",
+        "style": "hover:text-gray-700"
+      },
+      {
+        "id": 3,
+        "href": "mailto:marcotte.s2010@gmail.com",
+        "icon": "IoIosMail",
+        "style": "hover:text-pink-500"
+      }
+    ],
+    "resume": {
+      "href": "/assets/resume.pdf",
+      "buttonText": "Resume",
+      "downloadIcon": "FaFileDownload"
+    },
+    "image": "/assets/simonm.png"
+  }
+  
