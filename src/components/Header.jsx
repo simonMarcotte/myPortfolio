@@ -1,58 +1,49 @@
 import React from 'react';
-import { MdOutlineNightlightRound, MdWbSunny } from "react-icons/md";
+import { MdWbSunny } from "react-icons/md";
+import { BsFillMoonStarsFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 const Header = ({ darkMode, setDarkMode }) => {
-
   const NavButtons = [
-    {
-      id: 1,
-      link: "home"
-    },
-    {
-      id: 2,
-      link: "work-experience"
-    },
-    {
-      id: 3,
-      link: "portfolio"
-    },
-    {
-      id: 4,
-      link: "Technologies"
-    },
-    {
-      id: 5,
-      link: "contact"
-    }
+    { id: 1, link: "home" },
+    { id: 2, link: "projects" },
+    { id: 3, link: "tech" },
+    { id: 4, link: "contact" }
   ];
 
   return (
-    <header className="bg-gray-300 dark:bg-zinc-900 text-zinc-950 dark:text-white rounded-md m-3 sticky top-0 z-50 duration-500">
-      <nav className='flex justify-between items-center p-5'>
-        <h1 className='text-2xl'>SIMON M.</h1>
-
-        <ul className='md:flex'>
-          {NavButtons.map(({ id, link }) => (
-            <li key={id} className="px-4 cursor-pointer capitalize font-light hover:scale-110 duration-200">
-              <Link to={link} smooth duration={500} offset={-50}>{link}</Link>
-            </li>
-          ))}
-        </ul>
-
-        <div onClick={() => setDarkMode(!darkMode)}>
-          {
-            darkMode ? (
-              <MdWbSunny className="text-2xl cursor-pointer" />
+    // Full-width header background with transparency and blur
+    <header className="sticky top-0 z-50 w-full bg-gray-300/50 dark:bg-zinc-900/50 backdrop-blur-md">
+      {/* Centered container for the content */}
+      <div className="mx-auto w-full max-w-4xl px-4">
+        <div className="p-4">
+          <nav className="flex justify-between items-center">
+            {/* Navigation links (dimmed text) */}
+            <ul className="flex items-center space-x-4 text-gray-600 dark:text-gray-400">
+              {NavButtons.map(({ id, link }) => (
+                <li
+                  key={id}
+                  className="cursor-pointer capitalize font-light hover:scale-105 duration-200"
+                >
+                  <Link to={link} smooth duration={300} offset={-50}>
+                    {link}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            {/* Dark mode toggle */}
+            <div onClick={() => setDarkMode(!darkMode)}>
+            {darkMode ? (
+              <MdWbSunny className="text-2xl cursor-pointer text-yellow-500" />
             ) : (
-              <MdOutlineNightlightRound className="text-2xl cursor-pointer" />
-            )
-          }
-
+              <BsFillMoonStarsFill className="text-2xl cursor-pointer text-blue-800 dark:text-blue-700" />
+            )}
+            </div>
+          </nav>
         </div>
-      </nav>
+      </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
