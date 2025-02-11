@@ -11,7 +11,7 @@
       "src": "/logos/gcp.png",
       "title": "Google Cloud Platform",
       "style": "hover:shadow-green-400",
-      "detail": "I have used GCP Cloud Run and Compute Engine to host my Discord bot, used both BigQuery and Firebase in Litcode, and managed VPC subnets and firewalls."
+      "detail": "I used GCP Cloud Run and Compute Engine to host my Discord bot, used both BigQuery in Stock Data Pipeline, and managed VPC subnets and firewalls."
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "src": "/logos/cplusplus.png",
       "title": "C++",
       "style": "hover:shadow-blue-300",
-      "detail": "I used C++ to render mandelbrot fractals."
+      "detail": "I used C++ to render mandelbrot fractals, and with OS projects."
     },
     {
       "id": 5,
@@ -46,14 +46,14 @@
       "src": "/logos/raspberrypi.png",
       "title": "Raspberry Pi",
       "style": "hover:shadow-teal-200",
-      "detail": "I develope Kernel Drivers on Raspberry Pis and test server setups."
+      "detail": "I develop Kernel Drivers on Raspberry Pis and test server setups."
     },
     {
       "id": 8,
       "src": "/logos/github.png",
       "title": "Github",
       "style": "hover:shadow-gray-500",
-      "detail": "I use GitHub and GitHub Actions as version control and to maintain projects and at work."
+      "detail": "I use GitHub and GitHub Actions for version control and testing for personal projects and at work."
     }
   ]
   
