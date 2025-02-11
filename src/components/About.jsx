@@ -17,7 +17,7 @@ const About = () => {
   const DownloadIcon = iconMap[resume.downloadIcon];
 
   return (
-    <section className="pt-8 pb-20">
+    <section className="pt-8 pb-12">
       {/* Container with same width as your work experience and hero sections */}
       <div className="mx-auto w-full max-w-4xl px-4 flex flex-col-reverse md:flex-row md:items-center md:justify-between gap-8">
         {/* Text Column */}

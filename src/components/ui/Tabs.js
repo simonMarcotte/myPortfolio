@@ -12,7 +12,8 @@ const TabsList = React.forwardRef(
     <TabsPrimitive.List
       ref={ref}
       className={cn(
-        "inline-flex h-9 items-center justify-center rounded-lg p-1 bg-gray-300 dark:bg-zinc-700",
+        // The container now has a glow (box-shadow) around it:
+        "inline-flex h-9 items-center justify-center rounded-lg p-1 bg-gray-300 dark:bg-zinc-700 shadow-md shadow-gray-300 dark:shadow-gray-500",
         className
       )}
       {...props}
@@ -30,7 +31,7 @@ const TabsTrigger = React.forwardRef(
         "inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
         // Inactive state:
         "bg-gray-300 dark:bg-zinc-700 text-gray-500 dark:text-gray-400",
-        // Active state: match the work experience card background and text:
+        // Active state: match the work experience card background and text, without its own glow
         "data-[state=active]:bg-gray-200 dark:data-[state=active]:bg-zinc-900 data-[state=active]:text-gray-700 dark:data-[state=active]:text-gray-300",
         className
       )}
