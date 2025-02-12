@@ -8,6 +8,7 @@ const experienceItemSchema = z.object({
   logo: z.string().optional(),
   start: z.string().optional(),
   end: z.string().optional(),
+  location: z.string().optional(),
   description: z.array(z.string()).optional(),
   links: z.array(
     z.object({

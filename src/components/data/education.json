@@ -7,6 +7,7 @@
       "logo": "/logos/uofaEngg.png",
       "start": "Sep 2021",
       "end": "Expected May 2026",
+      "location": "Edmonton, AB",
       "description": [
         "Currently working on the Deans Research Award Winter 2025 - RF Energy Harvesters",
         "Computer Engineering Club Senior Executive - Academics"
@@ -19,6 +20,7 @@
       "logo": "/logos/lisgar.jpg",
       "start": "Sep 2017",
       "end": "Jun 2021",
+      "location": "Ottawa, ON",
       "description": [
         "High School I attended in Ottawa, Ontario",
         "Summative Project for ICS3U - Asteroids Game Remake in C++"

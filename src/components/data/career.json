@@ -7,6 +7,7 @@
         "logo": "/logos/nokiaLogo.png",
         "start": "Incoming May 2025",
         "end": "Aug 2025",
+        "location": "Ottawa, ON",
         "description": [
           "Working on testing the Service Router Platform, working with 1588 PTP, GNSS and Sync-E in the Timing/Sync team."
         ]
@@ -18,6 +19,7 @@
         "logo": "/logos/generalFusion.png",
         "start": "Jan 2024",
         "end": "Aug 2024",
+        "location": "Vanouver, BC",
         "description": [
           "Designed and deployed a Python based data acquisition system for 20+ fusion reactor diagnostics using Docker.",
           "Enabled SPI communication between Arduino and FPGA using SystemVerilog, simulated and tested in Intel Quartus Prime.",
@@ -31,6 +33,7 @@
         "logo": "/logos/uofaEngg.png",
         "start": "May 2023",
         "end": "Aug 2023",
+        "location": "Edmonton, AB",
         "description": [
           "Deployed a GCP hosted Python Discord Bot to automate onboarding processes for 500+ members across 4 months.",
           "Led virtual engineering camp redesign, coordinating team tasks and deadlines, advancing schedule by one month",
