@@ -31,7 +31,7 @@
       "id": 5,
       "src": "/logos/nvidia.png",
       "title": "CUDA",
-      "style": "hover:shadow-green-500",
+      "style": "hover:shadow-green-700",
       "detail": "I used CUDA and ROCm HIP to speed up mandelbrot fractals with GPU parallelization."
     },
     {
@@ -45,7 +45,7 @@
       "id": 7,
       "src": "/logos/raspberrypi.png",
       "title": "Raspberry Pi",
-      "style": "hover:shadow-teal-200",
+      "style": "hover:shadow-red-400",
       "detail": "I develop Kernel Drivers on Raspberry Pis and test server setups."
     },
     {

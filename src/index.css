@@ -18,10 +18,10 @@
 
 .nightTime {
   background-color: #27272a;
-  transition-duration: 500ms;
+  transition-duration: 0ms;
 }
 
 .lightTime {
   background-color: #ffffff;
-  transition-duration: 500ms;
+  transition-duration: 0ms;
 }
