@@ -39,7 +39,7 @@ const About = () => {
               href={resume.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-sm font-bold text-zinc-900 dark:text-white hover:bg-gray-200 dark:hover:bg-zinc-900 transition-colors hover:duration-200"
+              className="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-sm font-bold text-zinc-900 dark:text-white hover:bg-gray-200 dark:hover:bg-zinc-900 hover:duration-200"
             >
               {resume.buttonText} <DownloadIcon className="ml-2 text-lg" />
             </a>
@@ -52,7 +52,7 @@ const About = () => {
                   href={href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`text-2xl ${style}`}
+                  className={`text-2xl hover:duration-200 hover:scale-105 ${style}`}
                 >
                   <IconComponent />
                 </a>

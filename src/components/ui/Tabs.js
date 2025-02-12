@@ -28,7 +28,7 @@ const TabsTrigger = React.forwardRef(
       ref={ref}
       className={cn(
         // Base styling for all states:
-        "inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
+        "inline-flex items-center justify-center whitespace-nowrap rounded-md px-3 py-1 text-sm font-medium focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50",
         // Inactive state:
         "bg-gray-300 dark:bg-zinc-700 text-gray-500 dark:text-gray-400",
         // Active state: match the work experience card background and text, without its own glow

@@ -13,7 +13,7 @@ const Header = ({ darkMode, setDarkMode }) => {
 
   return (
     // Full-width header background with transparency and blur
-    <header className="sticky top-0 z-50 w-full bg-gray-300/50 dark:bg-zinc-900/50 backdrop-blur-md">
+    <header className="sticky top-0 z-50 w-full bg-gray-300/50 dark:bg-zinc-900/50 backdrop-blur-md transition-none">
       {/* Centered container for the content */}
       <div className="mx-auto w-full max-w-4xl px-4">
         <div className="p-4">
@@ -23,9 +23,9 @@ const Header = ({ darkMode, setDarkMode }) => {
               {NavButtons.map(({ id, link }) => (
                 <li
                   key={id}
-                  className="cursor-pointer capitalize font-light hover:scale-105 duration-200"
+                  className="cursor-pointer capitalize font-light hover:scale-105 hover:duration-200"
                 >
-                  <Link to={link} smooth duration={300} offset={-50}>
+                  <Link to={link} smooth duration={200} offset={-50}>
                     {link}
                   </Link>
                 </li>
@@ -36,7 +36,7 @@ const Header = ({ darkMode, setDarkMode }) => {
             {darkMode ? (
               <MdWbSunny className="text-2xl cursor-pointer text-yellow-500" />
             ) : (
-              <BsFillMoonStarsFill className="text-2xl cursor-pointer text-blue-800 dark:text-blue-700" />
+              <BsFillMoonStarsFill className="text-2xl cursor-pointer text-blue-900 dark:text-cyan-600" />
             )}
             </div>
           </nav>

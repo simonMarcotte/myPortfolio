@@ -21,7 +21,7 @@ const Technology = () => {
           {technologies.map(({ id, src, title, style, detail }) => (
             <div
             key={id}
-            className={`relative shadow-lg bg-gray-200 dark:bg-zinc-900 hover:scale-105 py-4 rounded-lg overflow-hidden flex flex-col items-center shadow-gray-300 ${style} hover:shadow-teal-200`}
+            className={`relative shadow-lg bg-gray-200 dark:bg-zinc-900 hover:scale-105 py-4 rounded-lg overflow-hidden flex flex-col items-center shadow-gray-300 ${style}`}
           >
             {/* Hover overlay */}
             <div className="opacity-0 hover:opacity-100 hover:bg-zinc-700 hover:bg-opacity-60 duration-300 inset-0 z-10 absolute flex justify-center items-center text-xs text-gray-300 font-semibold text-center px-2">
