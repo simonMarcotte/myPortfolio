@@ -12,9 +12,9 @@ export default function TimelineItem({ experience }) {
         href={href}
         target="_blank"
         rel="noopener noreferrer"
-        className="absolute -left-7 top-4 flex items-center justify-center rounded-full bg-white"
+        className="absolute -left-7 top-4 flex items-center justify-center rounded-md bg-white"
       >
-        <Avatar className="w-14 h-14 border">
+        <Avatar className="w-14 h-14 border rounded-md">
           <AvatarImage
             src={logo}
             alt={name}
