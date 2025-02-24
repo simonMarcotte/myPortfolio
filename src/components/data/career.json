@@ -1,18 +1,6 @@
 {
     "career": [
       {
-        "name": "Nokia",
-        "href": "https://nokia.com",
-        "title": "Router Platform Test Developer Co-op",
-        "logo": "/logos/nokiaLogo.png",
-        "start": "Incoming May 2025",
-        "end": "Aug 2025",
-        "location": "Ottawa, ON",
-        "description": [
-          "Working on testing the Service Router Platform, working with 1588 PTP, GNSS and Sync-E in the Timing/Sync team."
-        ]
-      },
-      {
         "name": "General Fusion",
         "href": "https://generalfusion.com",
         "title": "Software/Controls Engineering Co-op",
