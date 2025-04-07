@@ -1,13 +1,25 @@
 {
     "career": [
       {
+        "name": "Amazon Web Services (AWS)",
+        "href": "https://aws.amazon.com/about-aws/",
+        "title": "Software Development Engineer Intern",
+        "logo": "/logos/awsLogo.png",
+        "start": "Incoming May 2025",
+        "end": "Aug 2025",
+        "location": "Vancouver, BC",
+        "description": [
+          "Joining the AWS Platform team as an SDE intern to collaborate with engineers to design, test and deploy scalable solutions for customers."
+        ]
+      },
+      {
         "name": "General Fusion",
         "href": "https://generalfusion.com",
         "title": "Software/Controls Engineering Co-op",
         "logo": "/logos/generalFusion.png",
         "start": "Jan 2024",
         "end": "Aug 2024",
-        "location": "Vanouver, BC",
+        "location": "Vancouver, BC",
         "description": [
           "Designed and deployed a Python based data acquisition system for 20+ fusion reactor diagnostics using Docker.",
           "Enabled SPI communication between Arduino and FPGA using SystemVerilog, simulated and tested in Intel Quartus Prime.",
@@ -15,10 +27,10 @@
         ]
       },
       {
-        "name": "UAlberta Faculty of Engineering",
+        "name": "University of Alberta - Bridge2Engg",
         "href": "https://www.ualberta.ca/en/engineering/student-services/bridge-2-engg.html",
-        "title": "Bride2Engg - Program Instructor",
-        "logo": "/logos/uofaEnggPng.png",
+        "title": "Program Instructor",
+        "logo": "/logos/ualbertaLogo.png",
         "start": "May 2023",
         "end": "Aug 2023",
         "location": "Edmonton, AB",

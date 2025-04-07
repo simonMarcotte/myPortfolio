@@ -2,15 +2,14 @@
   "education": [
     {
       "name": "University of Alberta",
-      "href": "https://example.com",
+      "href": "https://www.ualberta.ca/en/index.html",
       "title": "BSc Computer Engineering Co-op",
-      "logo": "/logos/uofaEnggPng.png",
+      "logo": "/logos/ualbertaLogo.png",  
       "start": "Sep 2021",
       "end": "Expected May 2026",
       "location": "Edmonton, AB",
       "description": [
-        "Currently working on the Deans Research Award Winter 2025 - RF Energy Harvesters",
-        "Computer Engineering Club Senior Executive - Academics"
+        "Computer Engineering Club Senior Executive - Academics (2024-2025)"
       ]
     },
     {
