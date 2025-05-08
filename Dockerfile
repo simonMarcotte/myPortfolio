@@ -10,9 +10,11 @@ RUN npm run build
 # Stage 1 - Serve Frontend Assets
 FROM fholzer/nginx-brotli:latest
 
+RUN apk add --no-cache gettext
+
 WORKDIR /etc/nginx
-ADD nginx.conf /etc/nginx/nginx.conf
+ADD nginx.conf.template /etc/nginx/nginx.conf.template
 
 COPY --from=build /app/build /usr/share/nginx/html
-EXPOSE 443
-CMD ["nginx", "-g", "daemon off;"]
+
+CMD ["/bin/sh", "-c", "envsubst '${PORT}' < /etc/nginx/nginx.conf.template > /etc/nginx/nginx.conf && nginx -g 'daemon off;'"]
