@@ -8,7 +8,7 @@ COPY . .
 RUN npm run build
 
 # Stage 1 - Serve Frontend Assets
-FROM fholzer/nginx-brotli:v1.12.2
+FROM fholzer/nginx-brotli:latest
 
 WORKDIR /etc/nginx
 ADD nginx.conf /etc/nginx/nginx.conf
