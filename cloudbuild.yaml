@@ -28,7 +28,6 @@ steps:
       - >-
         --labels=managed-by=gcp-cloud-build-deploy-cloud-run,commit-sha=$COMMIT_SHA,gcb-build-id=$BUILD_ID,gcb-trigger-id=$_TRIGGER_ID
       - '--region=$_DEPLOY_REGION'
-      - '--set-env-vars=PORT=8080'
       - '--quiet'
     id: Deploy
     entrypoint: gcloud
