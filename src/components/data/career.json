@@ -5,11 +5,16 @@
         "href": "https://aws.amazon.com/about-aws/",
         "title": "Software Development Engineer Intern",
         "logo": "/logos/awsLogo.png",
-        "start": "Incoming May 2025",
-        "end": "Aug 2025",
+        "start": "May 2025",
+        "end": "Present",
         "location": "Vancouver, BC",
         "description": [
-          "Joining the AWS Platform team as an SDE intern to collaborate with engineers to design, test and deploy scalable solutions for customers."
+          "Working in the Oracle Database @ AWS team to help upgrade a multi-cloud orchestration platform.",
+          "Writing a design doc covering requirements, customer experience, architecture, and security concerns."
+        ],
+        "links": [
+          { "name": "AWS Info", "href": "https://aws.amazon.com/marketplace/featured-seller/oracle/", "icon": "globe" },
+          { "name": "Oracle Info", "href": "https://www.oracle.com/ca-en/cloud/aws/", "icon": "globe" }
         ]
       },
       {
@@ -21,9 +26,12 @@
         "end": "Aug 2024",
         "location": "Vancouver, BC",
         "description": [
-          "Designed and deployed a Python based data acquisition system for 20+ fusion reactor diagnostics using Docker.",
-          "Enabled SPI communication between Arduino and FPGA using SystemVerilog, simulated and tested in Intel Quartus Prime.",
-          "Validated diagnostic server connections by testing data transmission from oscilloscopes over TCP/IP via fiber optics"
+          "Designed a Python-based data acquisition system for 20+ fusion reactor diagnostics using Docker.",
+          "Visualized 98.9% DSP accuracy with matplotlib, achieving 9x speedup in Python over MATLAB.",
+          "Cut server downtime by 50% by automating server setup with GitHub Actions, Docker and Python."
+        ],
+        "links": [
+          { "name": "PyGFDrivers", "href": "https://www.piwheels.org/project/pygfdrivers/", "icon": "globe" }
         ]
       },
       {
@@ -35,9 +43,9 @@
         "end": "Aug 2023",
         "location": "Edmonton, AB",
         "description": [
-          "Deployed a GCP hosted Python Discord Bot to automate onboarding processes for 500+ members across 4 months.",
-          "Led virtual engineering camp redesign, coordinating team tasks and deadlines, advancing schedule by one month",
-          "Coordinated communication between staff and students, led weekly meetings to adapt to student’s needs"
+          "Launched a Python Discord bot hosted on GCP, streamlining onboarding for 400+ camp members.",
+          "Led virtual engineering camp redesign, coordinating tasks and advancing schedule by 1 month.",
+          "Created an automated discipline quiz used by 450+ students, still in use today. :)"
         ],
         "links": [
           { "name": "Bot2Engg", "href": "https://github.com/simonMarcotte/Bot2Engg", "icon": "globe" }
