@@ -1,21 +1,18 @@
-# 1) Build your React app
-FROM node:18.16.0-alpine AS build
+# Stage 0 - Build Frontend Assets
+FROM node:18.16.0-alpine as build
+
 WORKDIR /app
 COPY package*.json ./
-RUN npm ci
+RUN npm install
 COPY . .
 RUN npm run build
 
-# 2) Serve static via official nginx
-FROM nginx:stable-alpine
-# bring in envsubst
-RUN apk add --no-cache gettext
+# Stage 1 - Serve Frontend Assets
+FROM nginx:alpine
 
-#copy nginx config
-COPY nginx.conf.template /etc/nginx/nginx.conf.template
+WORKDIR /etc/nginx
+ADD nginx.conf /etc/nginx/nginx.conf
+
 COPY --from=build /app/build /usr/share/nginx/html
-
-# at runtime, substitute $PORT -> nginx.conf -> start nginx
-CMD ["/bin/sh","-c",\
-  "envsubst '${PORT}' < /etc/nginx/nginx.conf.template \
-    > /etc/nginx/nginx.conf && nginx -g 'daemon off;'"]
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
