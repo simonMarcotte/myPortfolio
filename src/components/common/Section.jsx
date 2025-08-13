@@ -10,9 +10,13 @@ const Section = ({ icon, title, subtitle, children }) => {
           {icon}
           <span className="ml-3">{title}</span>
         </h3>
-        <p className="max-w-xl font-light text-gray-400 mb-10 text-sm md:text-base">
-          {subtitle}
-        </p>
+        {typeof subtitle === 'string' ? (
+          <p className="max-w-xl font-light text-gray-400 mb-10 text-sm md:text-base">
+            {subtitle}
+          </p>
+        ) : (
+          subtitle
+        )}
         {children}
       </div>
     </section>

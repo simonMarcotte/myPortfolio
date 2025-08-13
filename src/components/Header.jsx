@@ -7,7 +7,7 @@ const Header = ({ darkMode, setDarkMode }) => {
   const NavButtons = [
     { id: 1, link: "home" },
     { id: 2, link: "projects" },
-    { id: 3, link: "tech" },
+    { id: 3, link: "terminal" },
     { id: 4, link: "contact" }
   ];
 

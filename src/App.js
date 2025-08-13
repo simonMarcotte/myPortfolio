@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import WorkExperience from "./components/Work";
 import Projects from "./components/Projects";
-import Technology from "./components/Technology";
+import TerminalSection from "./components/TerminalSection";
 import Footer from "./components/Footer";
 import ContactForm from "./components/Contact";
 //import Contact from "./components/Contact";
@@ -28,8 +28,8 @@ function App() {
       
         <About />
         <WorkExperience />
+        <TerminalSection />
         <Projects />
-        <Technology />
         <ContactForm />
         
       </main>
