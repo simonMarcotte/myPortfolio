@@ -181,7 +181,7 @@ const Terminal = ({ className, ...props }) => {
       
       return [`system:${terminalData.terminal.commands.resume_download}`];
     },
-    
+
     whoami: () => [`content:${terminalData.terminal.commands.whoami}`],
 
     date: () => [`system:${new Date().toString()}`],
@@ -404,9 +404,6 @@ const Terminal = ({ className, ...props }) => {
     }
   }, [history]);
 
-  useEffect(() => {
-    inputRef.current?.focus();
-  }, []);
 
   return (
     <div 
@@ -431,7 +428,7 @@ const Terminal = ({ className, ...props }) => {
       {/* Terminal Content */}
       <div 
         ref={terminalRef}
-        className="bg-black p-4 h-96 overflow-y-auto text-green-400 font-mono text-sm cursor-text"
+        className="bg-black p-4 h-96 overflow-y-auto text-green-400 font-mono text-sm cursor-text hover:ring-2 hover:ring-green-400/30 transition-all"
         onClick={() => inputRef.current?.focus()}
       >
         {/* Command History */}
