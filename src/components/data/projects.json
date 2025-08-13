@@ -3,7 +3,7 @@
       "id": 1,
       "image": "/projects/nbody_simulation.gif",
       "title": "GPU Accelerated N-Body Sim",
-      "description": "Simulating vehicle data transmission from IoT diagnostics to a database for real-time monitoring.",
+      "description": "Accelerated an N-Body simulation using AMD GPU with ROCm HIP to parallelize the simulation of gravitational interactions.",
       "tags": ["C++", "ROCm", "HIP", "CUDA", "OpenGL"],
       "links": [
         { "name": "GitHub", "url": "https://github.com/simonMarcotte/nbody_simulation" }
