@@ -1,23 +1,22 @@
 [
     {
       "id": 1,
-      "image": "/projects/mandelbrot.png",
-      "title": "GPU Mandelbrot Speedup",
-      "description": "Using CUDA and ROCm HIP on NVIDIA and AMD GPUs to speedup the rendering of mandelbrot fractals.",
-      "tags": ["CUDA", "ROCm", "HIP", "C++"],
+      "image": "/projects/nbody_simulation.gif",
+      "title": "GPU Accelerated N-Body Sim",
+      "description": "Simulating vehicle data transmission from IoT diagnostics to a database for real-time monitoring.",
+      "tags": ["C++", "ROCm", "HIP", "CUDA", "OpenGL"],
       "links": [
-        { "name": "GitHub", "url": "https://github.com/simonMarcotte/Mandelbrot-Speedup" }
+        { "name": "GitHub", "url": "https://github.com/simonMarcotte/nbody_simulation" }
       ]
     },
-    
     {
       "id": 2,
-      "image": "/projects/vehicleTelemetry.png",
-      "title": "Vehicle Telemetry Server",
-      "description": "Simulating vehicle data transmission from IoT diagnostics to a database for real-time monitoring.",
-      "tags": ["Apache Kafka", "GRPc", "Python", "Go", "Docker"],
+      "image": "/projects/api_gateway.png",
+      "title": "API Gateway",
+      "description": "API Gateway including features like rate limiting, authentication, response caching, request proxy, and more.",
+      "tags": ["Python", "Redis", "FastAPI", "Github Actions"],
       "links": [
-        { "name": "GitHub", "url": "https://github.com/simonMarcotte/vehicle-telemetry" }
+        { "name": "GitHub", "url": "https://github.com/simonMarcotte/myPortfolio/tree/main" }
       ]
     },
     {
@@ -33,12 +32,12 @@
       },
     {
       "id": 4,
-      "image": "/projects/b2e.png",
-      "title": "Bot2Engg Discord Bot",
-      "description": "GCP hosted Python Discord Bot for the official B2E discord server, including slash commands, games, and onboarding automation.",
-      "tags": ["Python", "Discord.py", "GCP Compute Engine", "VPC"],
+      "image": "/projects/mandelbrot.png",
+      "title": "GPU Accelerated Mandelbrot",
+      "description": "Using CUDA and ROCm HIP on NVIDIA and AMD GPUs to speedup the rendering of mandelbrot fractals.",
+      "tags": ["CUDA", "ROCm", "HIP", "C++"],
       "links": [
-        { "name": "GitHub", "url": "https://github.com/simonMarcotte/myPortfolio/tree/main" }
+        { "name": "GitHub", "url": "https://github.com/simonMarcotte/Mandelbrot-Speedup" }
       ]
     }
   ]

@@ -1,34 +1,45 @@
 {
     "career": [
       {
+        "name": "Robinhood",
+        "href": "https://www.robinhood.com/",
+        "title": "Backend Software Engineer Intern",
+        "logo": "/logos/robinhoodLogo.png",
+        "start": "Incoming Fall 2025",
+        "end": "Dec 2025",
+        "location": "Toronto, ON",
+        "description": [
+          "Selected to join the Payment Platform to monitor Fraud Operations using Golang and Python."
+        ],
+        "links": []
+      },
+      {
         "name": "Amazon Web Services (AWS)",
         "href": "https://aws.amazon.com/about-aws/",
         "title": "Software Development Engineer Intern",
         "logo": "/logos/awsLogo.png",
         "start": "May 2025",
-        "end": "Present",
+        "end": "Aug 2025",
         "location": "Vancouver, BC",
         "description": [
-          "Working in the Oracle Database @ AWS team to help upgrade a multi-cloud orchestration platform.",
-          "Writing a design doc covering requirements, customer experience, architecture, and security concerns."
+          "Designing an SSH key system in Java for Oracle DB @ AWS to connect customers to VM clusters.",
+          "Expanded SSH key options on AWS console with React/TypeScript, working with UX team."
         ],
         "links": [
-          { "name": "AWS Info", "href": "https://aws.amazon.com/marketplace/featured-seller/oracle/", "icon": "globe" },
-          { "name": "Oracle Info", "href": "https://www.oracle.com/ca-en/cloud/aws/", "icon": "globe" }
+          { "name": "ODB @ AWS Launch", "href": "https://aws.amazon.com/blogs/aws/introducing-oracle-databaseaws-for-simplified-oracle-exadata-migrations-to-the-aws-cloud/", "icon": "globe" }
         ]
       },
       {
         "name": "General Fusion",
         "href": "https://generalfusion.com",
-        "title": "Software/Controls Engineering Co-op",
+        "title": "Software Engineer Intern",
         "logo": "/logos/generalFusion.png",
         "start": "Jan 2024",
         "end": "Aug 2024",
         "location": "Vancouver, BC",
         "description": [
           "Designed a Python-based data acquisition system for 20+ fusion reactor diagnostics using Docker.",
-          "Visualized 98.9% DSP accuracy with matplotlib, achieving 9x speedup in Python over MATLAB.",
-          "Cut server downtime by 50% by automating server setup with GitHub Actions, Docker and Python."
+          "Visualized 98.9% signal processing accuracy with matplotlib, achieving 9x speedup in Python."
         ],
         "links": [
           { "name": "PyGFDrivers", "href": "https://www.piwheels.org/project/pygfdrivers/", "icon": "globe" }
